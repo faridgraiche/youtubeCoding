@@ -55,9 +55,9 @@ public class Anagram {
                 for(int j=i+1;j<char2.length;j++){
 
                     if (char2[i]>char2[j]){
-                        temp1 = char2[i];
+                        temp2 = char2[i];
                         char2[i] = char2[j];
-                        char2[j] = temp1;
+                        char2[j] = temp2;
                     }
                 }
             }
