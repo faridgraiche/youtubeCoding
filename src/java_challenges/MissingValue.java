@@ -2,7 +2,7 @@ package java_challenges;
 
 public class MissingValue {
     public static void main(String[] args) {
-        int[] numbers = {1,2,3,4,5,6,7,8,10};
+        int[] numbers = {1,2,3,10,4,5,6,7,8};
         int sum1 = 0;
 
         for(int i=0; i<numbers.length;i++){
